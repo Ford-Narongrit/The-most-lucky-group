@@ -18,6 +18,7 @@ body {
    display: flex;
    justify-content: space-between;
    padding: 25px;
+   background-color: black;
 }
 
 .left-side {
@@ -30,6 +31,10 @@ body {
    text-transform: uppercase;
 }
 
+.name {
+   color: white;
+}
+
 .nav-link {
    height: 22px;
    border-bottom:  1px solid transparent;
@@ -37,20 +42,28 @@ body {
 }
 
 .nav-link > a {
-   color: #8a8a8a;
+   color: #bebebe;
    text-decoration:  none;
    transition: color 0.5s;
 }
 
 .nav-link:hover {
-   border-bottom : 1px solid black;
+   border-bottom : 1px solid white;
 }
 
 .nav-link > a:hover {
-   color : black;
+   color : white;
 }
 
-.CNCX {
+.active-nav-link {
+   border-bottom : 1px solid  #c9c9c9;
+}
+
+.active-nav-link > a {
+   color :  #c9c9c9;
+}
+
+.cncx {
    font-size: 2em; 
    text-align: center;
    padding: 38px;
@@ -185,4 +198,10 @@ body {
 .img_darken {
    transition: 1s;
    filter: brightness(10%);
+}
+
+.bottom-bar{
+   background-color: black;
+   text-align: center;
+   color: white;
 }
