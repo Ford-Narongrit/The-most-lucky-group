@@ -10,13 +10,20 @@ export default class MyProfile extends Component {
                         <Image classImage = "circleImage" imagePath ={this.props.path} width = {this.props.width}/>  
                     </div>
                     <div class="inner center" style={{flexGrow: 3}}>
-                        <p class = "colorfulltext">ชื่อ</p>
-                        <p class = "colorfulltext">ID</p>
-                        <p class = "colorfulltext">จุดเด่น</p>
+                        <p class = "colorfulltext">ชื่อ :</p>
+                        <p class = "colorfulltext">ID :</p>
+                        <p class = "colorfulltext">Programming :</p>
+                        <p class = "colorfulltext">งานอดิเรก :</p>
+                        <p class = "colorfulltext">แนวเกมที่เล่น :</p>
+                        <p class = "colorfulltext">จุดเด่น :</p>
+                        
                     </div>
                     <div class="inner left" style={{flexGrow: 20}}>
                         <p class = "colorfulltext">{this.props.name}</p>
                         <p class = "colorfulltext">{this.props.id}</p>
+                        <p class = "colorfulltext">{this.props.Programming}</p>
+                        <p class = "colorfulltext">{this.props.hobby}</p>
+                        <p class = "colorfulltext">{this.props.games}</p>
                         <p class = "colorfulltext">{this.props.highLight}</p>
                     </div>
                 </div>

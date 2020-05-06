@@ -4,7 +4,7 @@ import Breadcrumb from '../Components/Breadcrumb'
 import TabBar from '../Components/TabBar'
 import MyProfile from '../Components/MyProfile'
 
-export default function FordProfile() {
+export default function PlumeProfile() {
     return (
         <div>
             <div style={{ backgroundImage: "url(/image/head.jpg)"}}>
@@ -13,13 +13,13 @@ export default function FordProfile() {
                         button2 = "เพิ่มเติม"       
                 />
                 <Breadcrumb homePath = "/" home="Home" toWherePath = "/Plume-profile" where = "Plume-profile"/>
-                <TabBar listActive1 = "active" listPath1= "/Plume-profile"/>
             </div>
-                <MyProfile  path ="./image/plume_img.jpg" width="500"
-                            name ="ณัฐเสฐ ธนบดี(ปลื้ม)"
-                            id = "6210402411"
-                            highLight = "นอน :P"
-                            />
+            <TabBar listActive1 = "active" listPath1= "/Plume-profile"/>
+            <MyProfile  path ="./image/plume_img.jpg" width="500"
+                        name ="ณัฐเสฐ ธนบดี(ปลื้ม)"
+                        id = "6210402411"
+                        highLight = "นอน :P"
+                        />
         </div>
     )
 }

@@ -198,6 +198,7 @@ ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
     background-color: #eee;
+    margin-bottom: 0;
     }
     ul.breadcrumb li {
     display: inline;
@@ -217,4 +218,9 @@ ul.breadcrumb {
     text-decoration: underline;
 }
 
-
+/* lockTabMenu */
+.stickyToTop {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
