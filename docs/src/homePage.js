@@ -6,7 +6,7 @@ import MemberProfile from './Components/MemberProfile'
 
 export default function homePage() {
     return (
-        <div>
+        <div >
             <div style={{ backgroundImage: "url(/image/head.jpg)"}}>
                 <Header name = "กลุ่มที่โชคดีที่สุดในโลก"
                         button1 = "menu"
@@ -25,6 +25,7 @@ export default function homePage() {
                 <MemberProfile className="inner" name="Job" id="6210402381" memberPath="/Job-profile" memberImage="/image/bear.png"/>
                 <MemberProfile className="inner" name="Plume" id="6210402411" memberPath="/Plume-profile" memberImage="/image/plume_img.jpg"/>
             </div>
-        </div>
+            <div style={{marginBottom: 40}}></div>
+        </div >
     )
 }
