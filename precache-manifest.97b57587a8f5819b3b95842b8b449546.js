@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a2211564f2e95077505a00caa3f89ee",
+    "revision": "44d6e4891a23eec9f16736324f9b6085",
     "url": "/The-most-lucky-group/index.html"
   },
   {
-    "revision": "c9583ccacf8bf58a25f8",
+    "revision": "ab2fcc6ae6685a1057d4",
     "url": "/The-most-lucky-group/static/css/main.97deb7ac.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/The-most-lucky-group/static/js/2.13425cd3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c9583ccacf8bf58a25f8",
-    "url": "/The-most-lucky-group/static/js/main.132db47c.chunk.js"
+    "revision": "ab2fcc6ae6685a1057d4",
+    "url": "/The-most-lucky-group/static/js/main.2d674f29.chunk.js"
   },
   {
     "revision": "e393eb908b8736f04d4a",
