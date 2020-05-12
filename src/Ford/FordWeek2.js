@@ -7,7 +7,7 @@ import Image from '../Components/Image'
 export default function FordWeek2() {
     return (
         <div>
-            <div style={{ backgroundImage: "url(/image/head.jpg)"}} >
+            <div style={{ backgroundImage: "url(./image/head.jpg)"}} >
                 <Header name = "กลุ่มที่โชคดีที่สุดในโลก"
                         button1 = "menu"
                         button2 = "เพิ่มเติม"       
@@ -34,7 +34,7 @@ export default function FordWeek2() {
                     <div>
                         JavaScript มีตัวแปรเป็นแบบ Dynamic typing (เหมือน python)
                     </div>
-                    <Image  imagePath = "/image/Ford/week2-dataType.png" width = "600"/>
+                    <Image  imagePath = "./image/Ford/week2-dataType.png" width = "600"/>
                     <div>
                         ชนิดของตัวแปร 
                         <ul>
@@ -52,7 +52,7 @@ export default function FordWeek2() {
                     </div>
 
                     <h1 className="colorfulltext" style={{color: "#000000", fontSize: 40}}>Object</h1>
-                    <Image  imagePath = "/image/Ford/week2-Object (2).png" width = "400"/>
+                    <Image  imagePath = "./image/Ford/week2-Object (2).png" width = "400"/>
                     <div>
                         Object คือ ก้อนข้อมูลที่ประกอบไปด้วย
                         <ul>Property</ul>
@@ -60,20 +60,20 @@ export default function FordWeek2() {
                         <ul>value</ul>
                         การเข้าถึงค่าใน Object โดยใช้ key
                     </div>
-                    <Image  imagePath = "/image/Ford/week2-Object (1).png" width = "600"/>
+                    <Image  imagePath = "./image/Ford/week2-Object (1).png" width = "600"/>
 
                     <h1 className="colorfulltext" style={{color: "#000000", fontSize: 40}}>Array</h1>
-                    <Image  imagePath = "/image/Ford/week2-array.png" width = "600"/>
+                    <Image  imagePath = "./image/Ford/week2-array.png" width = "600"/>
                     <div>array เป็นตัวแปรประเภท Object แต่มีการเรียงกันเป็นลำดับ และสามารถเก็บค่าได้หลายประเภทรวมกัน</div>
 
                     <h1 className="colorfulltext" style={{color: "#000000", fontSize: 40}}>for-loop</h1>
-                    <Image  imagePath = "/image/Ford/week2-for.png" width = "600"/>
+                    <Image  imagePath = "./image/Ford/week2-for.png" width = "600"/>
                     <div>
                         <ul>for-in เหมาะสำหรับการนำไปวนด้วย Object เพราะจะเป็นการดึง ค่า key ออกมาทีละตัว</ul>
                         <ul>for-of เหมาะสำหรับการนำไปวนด้วย array เพราะข้อมูลมีลำดับ</ul>
                     </div>
                     <h1 className="colorfulltext" style={{color: "#000000", fontSize: 40}}>function</h1>
-                    <Image  imagePath = "/image/Ford/week2-function.png" width = "600"/>
+                    <Image  imagePath = "./image/Ford/week2-function.png" width = "600"/>
                     <li>
                         function คือ โปรแกรมย่อยที่อยู่ในโปรแกรมหลัก ทำหน้าที่คำนวณค่าแล้วส่งค่าคืนให้โปรแกรมหลัก
                     </li>
@@ -87,16 +87,16 @@ export default function FordWeek2() {
                     </li>
   
                     <h1 className="colorfulltext" style={{color: "#000000", fontSize: 40}}>template string</h1>
-                    <Image  imagePath = "/image/Ford/wee2-TemplateString.png" width = "600"/>
+                    <Image  imagePath = "./image/Ford/wee2-TemplateString.png" width = "600"/>
                     <div>คือการนำค่าตัวแปรไปแทนที่ ดังรูป</div>
                     
                     <h1 className="colorfulltext" style={{color: "#000000", fontSize: 40}}>Array Destructuring VS Object Destructuring</h1>
                     <div style={{display:"flex"}}>
                         <div style={{padding: 10}}>
-                            <Image  imagePath = "/image/Ford/week2-arrayDes.png" width = "600"/>
+                            <Image  imagePath = "./image/Ford/week2-arrayDes.png" width = "600"/>
                         </div>
                         <div style={{padding: 10}}>
-                            <Image  imagePath = "/image/Ford/week2-objectDes.png" width = "600"/>
+                            <Image  imagePath = "./image/Ford/week2-objectDes.png" width = "600"/>
                         </div>
                     </div>
 

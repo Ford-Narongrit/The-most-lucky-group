@@ -1,4 +1,4 @@
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter , Route } from 'react-router-dom';
 import React from 'react';
 import './css/App.css';
 
@@ -17,7 +17,7 @@ import PlumeProfile from './Plume/PlumeProfile';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Route exact path = "/" component = { homepage }  />
       {/* about Ford */}
       <Route exact path = "/Ford-profile" component = { FordProfile }  />
@@ -39,7 +39,7 @@ function App() {
 
 
       
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

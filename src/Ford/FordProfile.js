@@ -7,7 +7,7 @@ import MyProfile from '../Components/MyProfile'
 export default function FordProfile() {
     return (
         <div>
-            <div style={{ backgroundImage: "url(/image/head.jpg)"}}>
+            <div style={{ backgroundImage: "url(./image/head.jpg)"}}>
                 <Header name = "กลุ่มที่โชคดีที่สุดในโลก"
                         button1 = "menu"
                         button2 = "เพิ่มเติม"       
