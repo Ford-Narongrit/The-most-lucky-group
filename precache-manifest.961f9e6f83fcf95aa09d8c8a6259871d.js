@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "983a706465e366299ba8cf5eba34af90",
+    "revision": "1a2211564f2e95077505a00caa3f89ee",
     "url": "/The-most-lucky-group/index.html"
   },
   {
-    "revision": "70958a9cb39315cb536f",
+    "revision": "c9583ccacf8bf58a25f8",
     "url": "/The-most-lucky-group/static/css/main.97deb7ac.chunk.css"
   },
   {
-    "revision": "f48c9b81f48dfba4137c",
-    "url": "/The-most-lucky-group/static/js/2.f23b87cd.chunk.js"
+    "revision": "a6bf0ebb9b697190e111",
+    "url": "/The-most-lucky-group/static/js/2.13425cd3.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/The-most-lucky-group/static/js/2.f23b87cd.chunk.js.LICENSE.txt"
+    "url": "/The-most-lucky-group/static/js/2.13425cd3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70958a9cb39315cb536f",
-    "url": "/The-most-lucky-group/static/js/main.8eecffae.chunk.js"
+    "revision": "c9583ccacf8bf58a25f8",
+    "url": "/The-most-lucky-group/static/js/main.132db47c.chunk.js"
   },
   {
     "revision": "e393eb908b8736f04d4a",
