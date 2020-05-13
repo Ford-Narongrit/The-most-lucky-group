@@ -19,12 +19,12 @@ export default class MyProfile extends Component {
                         
                     </div>
                     <div class="inner left" style={{flexGrow: 20}}>
-                        <p class = "colorfulltext">{this.props.name}</p>
-                        <p class = "colorfulltext">{this.props.id}</p>
-                        <p class = "colorfulltext">{this.props.Programming}</p>
-                        <p class = "colorfulltext">{this.props.hobby}</p>
-                        <p class = "colorfulltext">{this.props.games}</p>
-                        <p class = "colorfulltext">{this.props.highLight}</p>
+                        <p class = "colorfulltext">{this.props.name || "-"}</p>
+                        <p class = "colorfulltext">{this.props.id || "-"}</p>
+                        <p class = "colorfulltext">{this.props.Programming || "-"}</p>
+                        <p class = "colorfulltext">{this.props.hobby || "-"}</p>
+                        <p class = "colorfulltext">{this.props.games || "-"}</p>
+                        <p class = "colorfulltext">{this.props.highLight || "-"}</p>
                     </div>
                 </div>
             </div>
