@@ -1,19 +1,15 @@
 import React from 'react'
-import Header from '../Components/Header'
-import Breadcrumb from '../Components/Breadcrumb'
+import Nav_bar from '../Components/nav_bar'
 import TabBar from '../Components/TabBar'
 import Image from '../Components/Image'
 
 export default function FordWeek3() {
     return (
         <div>
-            <div style={{ backgroundImage: "url(./image/head.jpg)"}} className="topnav">
-                <Header name = "กลุ่มที่โชคดีที่สุดในโลก"
-                        button1 = "menu"
-                        button2 = "เพิ่มเติม"       
-                />
-                <Breadcrumb homePath = "/" home="Home" toWherePath = "/Ford-profile" where = "Ford-profile"/>
-            </div>
+            <Nav_bar name = "THE MOST LUCKY GROUP"
+                      button1 = "Home"
+                      button2 = ""
+         />
             <TabBar listActive3 = "active"  listPath1= "/Ford-profile" 
                                             listPath2= "/Ford-profile/Week2"
                                             listPath3= "/Ford-profile/Week3"

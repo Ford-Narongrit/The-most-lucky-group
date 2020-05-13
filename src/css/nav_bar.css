@@ -1,0 +1,48 @@
+.nav-bar {
+   display: flex;
+   justify-content: space-between;
+   padding: 25px;
+   background-color: black;
+}
+
+.left-side {
+   display:  flex;
+}
+
+.left-side > div {
+   margin-right: 20px;
+   font-size: 0.9em;
+   text-transform: uppercase;
+}
+
+.name {
+   color: white;
+}
+
+.nav-link {
+   height: 22px;
+   border-bottom:  1px solid transparent;
+   transition: border-bottom 0.5s;
+}
+
+.nav-link > a {
+   color: #bebebe;
+   text-decoration:  none;
+   transition: color 0.5s;
+}
+
+.nav-link:hover {
+   border-bottom : 1px solid white;
+}
+
+.nav-link > a:hover {
+   color : white;
+}
+
+.active-nav-link {
+   border-bottom : 1px solid  #c9c9c9;
+}
+
+.active-nav-link > a {
+   color :  #c9c9c9;
+}

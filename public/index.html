@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta name="theme-color" content="#000000" />
     
     <!-- อะไรไม่รู้ไม่ใช้ -->
     <!-- <meta
@@ -24,8 +24,23 @@
 
     <title>กลุ่มที่โชคดีที่สุดในโลก</title>
   </head>
-  <body>
+  <body style="margin: 0;">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
+
+
+  <script>
+    const memberItems = document.querySelectorAll('.member_item');
+ 
+    memberItems.forEach(memberItems => {
+       memberItems.addEventListener('mouseover', () => {
+          memberItems.childNodes[0].classList.add('img_darken');
+       })
+ 
+       memberItems.addEventListener('mouseout', () => {
+          memberItems.childNodes[0].classList.remove('img_darken');
+       })
+    })
+ </script>
 </html>

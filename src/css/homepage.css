@@ -1,0 +1,81 @@
+.container {
+   display: grid;
+   grid-template-columns: 1fr;
+   width: 100%;
+   padding: 0;
+}
+
+.member {
+   font-size: 2em; 
+   text-align: center;
+   padding: 20px;
+   color: whitesmoke;
+   background-color:#1e1e1e;
+}
+
+.member_items {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bottom-bar{
+   background-color: black;
+   text-align: center;
+   color: white;
+}
+
+.member_item {
+   text-align: 0;
+}
+
+.member_img-background {
+   height: 350px;
+   width: 100%;
+   background-size: cover;
+   background-position: top;
+   background-repeat: no-repeat;
+}
+
+.img_text {
+   position: absolute;
+   top: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   text-align: center;
+   padding-left: 125px;
+   padding-right: 125px;
+}
+
+.name_logo img{
+   width: 100%;
+}
+
+.img_text .ID {
+   transition:  1s;
+   color: transparent;
+}
+
+.img_text:hover .ID {
+   color:whitesmoke;
+}
+
+.img_darken {
+   transition: 1s;
+   filter: brightness(10%);
+}
+
+.F_for_respect {
+   width: 1000px;
+
+
+}
+
+.pic {
+   width: auto;
+   text-align: center;;
+   background-color:#1e1e1e;
+   padding-top: 30px;
+}
