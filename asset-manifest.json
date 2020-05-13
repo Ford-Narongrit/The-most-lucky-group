@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/The-most-lucky-group/static/css/main.2ee80f72.chunk.css",
-    "main.js": "/The-most-lucky-group/static/js/main.832d6cb2.chunk.js",
-    "main.js.map": "/The-most-lucky-group/static/js/main.832d6cb2.chunk.js.map",
+    "main.js": "/The-most-lucky-group/static/js/main.18d05c04.chunk.js",
+    "main.js.map": "/The-most-lucky-group/static/js/main.18d05c04.chunk.js.map",
     "runtime-main.js": "/The-most-lucky-group/static/js/runtime-main.54335937.js",
     "runtime-main.js.map": "/The-most-lucky-group/static/js/runtime-main.54335937.js.map",
     "static/js/2.714f554a.chunk.js": "/The-most-lucky-group/static/js/2.714f554a.chunk.js",
     "static/js/2.714f554a.chunk.js.map": "/The-most-lucky-group/static/js/2.714f554a.chunk.js.map",
     "index.html": "/The-most-lucky-group/index.html",
-    "precache-manifest.0791f24da7aaeab30c96d1b5e270a03c.js": "/The-most-lucky-group/precache-manifest.0791f24da7aaeab30c96d1b5e270a03c.js",
+    "precache-manifest.19d5f87fbf4ad9c741929e1a677d645d.js": "/The-most-lucky-group/precache-manifest.19d5f87fbf4ad9c741929e1a677d645d.js",
     "service-worker.js": "/The-most-lucky-group/service-worker.js",
     "static/css/main.2ee80f72.chunk.css.map": "/The-most-lucky-group/static/css/main.2ee80f72.chunk.css.map",
     "static/js/2.714f554a.chunk.js.LICENSE.txt": "/The-most-lucky-group/static/js/2.714f554a.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.54335937.js",
     "static/js/2.714f554a.chunk.js",
     "static/css/main.2ee80f72.chunk.css",
-    "static/js/main.832d6cb2.chunk.js"
+    "static/js/main.18d05c04.chunk.js"
   ]
 }
