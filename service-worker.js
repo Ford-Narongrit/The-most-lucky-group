@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/The-most-lucky-group/precache-manifest.19d5f87fbf4ad9c741929e1a677d645d.js"
+  "/The-most-lucky-group/precache-manifest.a66bd954f0f849bcf3e39e2f48e01cc9.js"
 );
 
 self.addEventListener('message', (event) => {
