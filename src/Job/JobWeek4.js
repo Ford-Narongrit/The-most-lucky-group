@@ -76,7 +76,7 @@ export default function JobWeek4() {
                    {
                        lists.map((item) => {
                        return (
-                       <li  key = {item.id}>
+                       <li className = "listStyle" key = {item.id}>
                            <strong>{item.task}</strong>
                            
                            <button className = "myButton" onClick={() => doneTask(item.id)}
@@ -94,7 +94,7 @@ export default function JobWeek4() {
                         {
                             doneList.map((item) => {
                                 return (
-                                    <li key = {item.id}>
+                                    <li className = "listStyle" key = {item.id}>
                                         <strong>{item.task}</strong>
                                         </li>
                                 )

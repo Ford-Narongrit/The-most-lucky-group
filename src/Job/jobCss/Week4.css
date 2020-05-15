@@ -39,7 +39,7 @@ input {
     display: table-cell;
     width: 50%; /* Make elements inside the container behave like table cells */
 }
-li{
+.listStyle{
     font-size: 36dp;
     margin-top: 15px;
     /* margin-bottom: 20px; */
@@ -49,9 +49,7 @@ li{
     padding-left: 20px;
 }
 /* li:hover { background-color:rgb(110, 108, 108); } */
-ul{
- 
-}
+
 .myButton {
   float: right;
   margin-right: 40px;
