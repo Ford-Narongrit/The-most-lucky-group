@@ -11,6 +11,9 @@ import FordWeek5 from './Ford/FordWeek5';
 import FordWeek6 from './Ford/FordWeek6';
 
 import JobProfile from './Job/JobProfile';
+import JobWeek2 from './Job/JobWeek2';
+import JobWeek3 from './Job/JobWeek3';
+import JobWeek4 from './Job/JobWeek4';
 
 
 import PlumeProfile from './Plume/PlumeProfile';
@@ -29,6 +32,9 @@ function App() {
 
       {/* about Job */}
       <Route exact path = "/Job-profile" component = { JobProfile }  />
+      <Route exact path = "/Job-profile/Week2" component = { JobWeek2 }  />
+      <Route exact path = "/Job-profile/Week3" component = { JobWeek3 }  />
+      <Route exact path = "/Job-profile/Week4" component = { JobWeek4 }  />
       
 
 

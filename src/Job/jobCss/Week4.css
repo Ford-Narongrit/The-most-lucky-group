@@ -1,0 +1,81 @@
+.TODOheader{
+background-color: #30475E;
+  padding: 30px 40px;
+  text-align: center;
+}
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: right;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0;
+  }
+.divContainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.block1{
+    width: 50%;
+}
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell;
+    width: 50%; /* Make elements inside the container behave like table cells */
+}
+li{
+    font-size: 36dp;
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+    height: 40px;
+    border-bottom: 2px solid salmon;
+    list-style-type: none;
+    padding-left: 20px;
+}
+/* li:hover { background-color:rgb(110, 108, 108); } */
+ul{
+ 
+}
+.myButton {
+  float: right;
+  margin-right: 40px;
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#bee687;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+  padding:4px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+  

@@ -4,7 +4,7 @@ import './css/homepage.css'
 import Nav_bar from './Components/nav_bar.js'
 import CNCX from './Components/cncx.js'
 import Member_content from './Components/member.js'
-import Slogan from './Components/slogan.js'
+import Slogan from './Components/Slogan.js'
 
 export default function homepage() {
    return (
@@ -29,7 +29,7 @@ export default function homepage() {
             <Member_content memberID = "6210402402" memberimg = "./image/Ford/FORD_img.jpg" 
                            memberPath="/Ford-profile" memberNameimg = "./image/Ford/FORD_NAME.png"/>
             <Member_content memberID = "6210402381" memberimg = "./image/Job/JOB_img.jpg" 
-                           memberPath="/JOB-profile" memberNameimg = "./image/Job/JOB_NAME.png"/>
+                           memberPath="/Job-profile" memberNameimg = "./image/Job/JOB_NAME.png"/>
             <Member_content memberID = "6210402411" memberimg = "./image/Plume/plume_img.jpg" 
                            memberPath="/Plume-Profile" memberNameimg = "./image/Plume/PLUEM_NAME.png"/>
          </div>
