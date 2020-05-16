@@ -20,7 +20,11 @@ export default function FordProfile() {
                 <MyProfile  path ="./image/Ford/redpanda.jpg" width="500"
                             name ="ณรงค์ฤทธ์ ธรรมปาโล (ฟอร์ด)"
                             id = "6210402402"
+                            Programming = "Python, Java, C, C++"
+                            hobby = "เล่นเกม อ่านมังงะ ดูอนิเมะ"
+                            games = "RTS, Card, Rhythm"
                             highLight = "ไม่รู้มาก่อน แต่จุดอ่อนอยู่ที่หัวใจ"
+                            
                             />
         </div>
     )
