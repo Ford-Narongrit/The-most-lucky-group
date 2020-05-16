@@ -1,0 +1,13 @@
+.yourOrder{
+    border: 1px solid #cacacc;
+    padding: .85em 2.25em .85em 1em;
+}
+.todofont{
+    font-family: 'Mitr', sans-serif;
+    font-size: large;
+}
+.listPrint {
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid #08254d;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav_bar from '../Components/nav_bar'
 import TabBar from '../Components/TabBar'
+import TodoList from './fordTool/TodolistFord'
 
 export default function FordWeek4() {
     return (
@@ -17,8 +18,11 @@ export default function FordWeek4() {
                                             listPath6= "/Ford-profile/Week6"
             />
             <div>
-                startHere!!
-                Week4
+                <div style={{marginLeft: "25%", marginRight: "25%", letterSpacing: 0.45, lineHeight: 1.5, fontSize:22}}>
+                    <h1 className="colorfulltext center" style={{color: "#000000", fontSize: 55}}>React (part 2)</h1>
+                    <h1 className="colorfulltext" style={{color: "#000000", fontSize: 40}}>Todo-List</h1>
+                    <TodoList/>
+                </div>
             </div>
         </div>
     )
