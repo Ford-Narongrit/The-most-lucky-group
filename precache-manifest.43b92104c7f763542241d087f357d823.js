@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "911f7235e91c1ea6ac6d34b6824373a8",
+    "revision": "2d5fa36f995df01eb2a04bd0cfcc3896",
     "url": "/The-most-lucky-group/index.html"
   },
   {
